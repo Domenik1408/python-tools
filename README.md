@@ -5,7 +5,9 @@ At the moment, it has not many features.
 
 
 version - Shows you the current version
+
 statuscode - Get the current status code of a website
+
 connectdb - Connect to a MySQL database
 
 
