@@ -3,6 +3,7 @@ Welcome to the project "Python-Tools". I'm working on the project if im really b
 
 At the moment, it has not many features.
 
+# HELP
 
 version - Shows you the current version
 
