@@ -11,5 +11,6 @@ statuscode - Get the current status code of a website
 
 connectdb - Connect to a MySQL database
 
+exit - Exit the program
 
 I will adding more very soon, stay tuned
