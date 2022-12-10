@@ -7,7 +7,7 @@ from getpass import getpass
 def main():
     while True:
         # Print the menu
-        print("HELP\n\nversion - Shows you the current version\nstatuscode - Get the current status code of a website\nconnectdb - Connect to a MySQL database")
+        print("HELP\n\nversion - Shows you the current version\nstatuscode - Get the current status code of a website\nconnectdb - Connect to a MySQL database\nexit - Exit the program")
 
         # Ask the user for a command
         command = input("Enter a command: ")
@@ -39,6 +39,10 @@ def main():
                 print("Successfully connected to the MySQL database.")
             except:
                 print("Could not connect to the MySQL database. Please try again.")
+        elif command == "exit":
+            # Exit the program
+            print("Exiting the program. Goodbye!")
+            break
 
 # Call the main function
 if __name__ == "__main__":
